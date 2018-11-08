@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	int i;
 	int array[ARRAY];
 	
-	printf("input 5 numbers: ");
+	printf("input %d numbers: ", ARRAY);
 	for (i=0; i<ARRAY; i++) {
 		scanf("%i", &array[i]);
 	}
